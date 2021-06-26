@@ -1,10 +1,10 @@
 import Vue from "vue";
-import Vuetify from "vuetify";
-import "vuetify/dist/vuetify.min.css";
+import Vuetify from "vuetify/lib/framework";
 
 Vue.use(Vuetify);
 
 const vuetify = new Vuetify({
+  customVariables: ["~/assets/variables.scss"],
   theme: {
     themes: {
       light: {
@@ -12,9 +12,9 @@ const vuetify = new Vuetify({
         secondary: "#424242",
         accent: "#82B1FF",
         error: "#A00404",
-        info: "#2196F3",
+        info: "#0413B8",
         success: "#05B804",
-        warning: "#05B804",
+        warning: "#FFC802",
       },
     },
   },
