@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <songs-list />
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import SongsList from "../components/SongsList.vue";
 
 export default {
   name: "Home",
 
   components: {
-    HelloWorld,
+    SongsList,
   },
 };
 </script>
