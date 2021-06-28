@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <nav-bar-right />
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import NavBarRight from '../components/NavBarRight.vue';
 
 export default {
   name: "Home",
 
   components: {
-    HelloWorld,
+    NavBarRight,
   },
 };
 </script>
