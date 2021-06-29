@@ -15,8 +15,8 @@
             v-text="item.collectionType"
           ></v-list-item-subtitle>
         </v-list-item-content>
-        
-        <v-list-item-content class="py-3 pr-13" >
+
+        <v-list-item-content class="py-3 pr-13">
           <v-list-item-subtitle
             v-text="item.releaseDate"
           ></v-list-item-subtitle>
