@@ -57,7 +57,7 @@ export default {
     async searchMusic() {
       await axios
         .get(
-          `http://localhost:8080/search?term=${this.term}&media=${this.media}&entity=${this.entity}&limit=200`
+          `http://localhost:8080/search?term=${this.term}&media=${this.media}&entity=${this.entity}&limit=20`
         )
         .then((res) => {
           this.results = res.data.results;
