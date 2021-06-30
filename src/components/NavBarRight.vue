@@ -1,7 +1,4 @@
 <template>
-  <div id="app">
-    <v-app id="inspire">
-        <v-card height="100vh" width="192px">
         <v-navigation-drawer
             absolute
             permanent
@@ -33,9 +30,6 @@
             </v-list-item>
             </v-list>
         </v-navigation-drawer>
-        </v-card>
-    </v-app>
-  </div>
 </template>
 
 <script>
