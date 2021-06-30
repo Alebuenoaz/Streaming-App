@@ -1,7 +1,7 @@
 /* eslint-disable */
 <template>
   <v-card height="12vh">
-    <v-footer color="#181818" fixed>
+    <v-footer color="#181818" app>
       <v-row no-gutters>
         <v-col cols="3">
           <v-card color="#181818" dark>

@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer absolute permanent left color="primary" app>
+  <v-navigation-drawer left color="primary" app>
     <template v-slot:prepend>
       <v-list-item two-line class="my-6 ml-3 pa-0 mr-2">
         <v-list-item-avatar class="mr-1 my-0" height="64px" width="64px">
@@ -7,7 +7,7 @@
         </v-list-item-avatar>
 
         <v-list-item-content class="pa-0 mt-1">
-          <v-list-item-title class="white--text">Jane Smith</v-list-item-title>
+          <v-list-item-title class=" charcoal0--text">Jane Smith</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </template>
@@ -28,7 +28,7 @@
           >{{ item.icon }}</v-icon
         >
         <v-list-item-title
-          class="pa-0 white--text"
+          class="pa-0 charcoal0--text"
           :height="item.height"
           width="144px"
           >{{ item.title }}</v-list-item-title

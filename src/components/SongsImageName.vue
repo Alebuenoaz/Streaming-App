@@ -1,7 +1,7 @@
 <template>
   <v-container class="py-6 px-4 ma-0">
     <v-row dense>
-      <v-col v-for="(item, i) in visibleResults" :key="i">
+      <v-col v-for="(item, i) in visibleResults" :key="i" cols="4">
         <v-card class="primary" style="height: 104px; width: 344px mx-0">
           <div class="d-flex flex-no-wrap py-0">
             <v-avatar class="py-0" size="104" tile>
@@ -62,7 +62,7 @@ export default {
     async searchMusic() {
       await axios
         .get(
-          `http://localhost:8080/search?term=${this.term}&media=${this.media}&entity=${this.entity}&limit=200`
+          `http://localhost:8080/search?term=${this.term}&media=${this.media}&entity=${this.entity}&limit=6`
         )
         .then((res) => {
           this.results = res.data.results;

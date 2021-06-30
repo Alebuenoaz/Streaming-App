@@ -23,7 +23,7 @@
           </v-col>
         </v-row>
       </v-app-bar>
-      <NavBarRight />
+      <NavBarRight  fixed />
     </div>
 
     <v-main>
