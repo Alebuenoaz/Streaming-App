@@ -4,7 +4,7 @@
     <v-footer color="#181818" app>
       <v-row no-gutters>
         <v-col cols="3">
-          <v-card color="#181818" dark>
+          <v-card color="charcoal0" dark flat>
             <v-card-actions>
               <v-list-item>
                 <v-list-item-avatar tile size="70">
