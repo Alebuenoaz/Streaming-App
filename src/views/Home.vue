@@ -1,18 +1,17 @@
 <template>
-  <!--songs-list /-->
-  <songs-image-name />
+  <div class="home">
+    <SongsListCards />
+  </div>
 </template>
 
 <script>
-import SongsImageName from "../components/SongsImageName.vue";
-//import SongsList from "../components/SongsList.vue";
+import SongsListCards from "@/components/SongsListCards.vue";
 
 export default {
   name: "Home",
 
   components: {
-    //SongsList,
-    SongsImageName,
+    SongsListCards,
   },
 };
 </script>
