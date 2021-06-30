@@ -15,7 +15,7 @@ const vuetify = new Vuetify({
         info: "#0413B8",
         success: "#05B804",
         warning: "#FFC802",
-        charcoal0: "#FFFFFF",
+        charcoal0: "#181818",
       },
     },
   },

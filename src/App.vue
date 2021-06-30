@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <div>
-      <v-app-bar app color="#2E2E2E" height="64">
+      <v-app-bar app color="charcoal0" height="64">
         <v-row align="center">
           <v-col offset="3" cols="3">
             <v-text-field
@@ -18,7 +18,8 @@
           </v-col>
           <v-col offset="3" cols="3">
             <v-btn height="40" rounded color="primary">
-              <v-icon left color="#CACACA">mdi-account-circle</v-icon>Juan Perez
+              <v-icon left color="charcoal0">mdi-account-circle</v-icon>Juan
+              Perez
             </v-btn>
           </v-col>
         </v-row>
