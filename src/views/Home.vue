@@ -1,15 +1,18 @@
 <template>
-  <songs-list />
+  <!--songs-list /-->
+  <songs-image-name />
 </template>
 
 <script>
-import SongsList from "../components/SongsList.vue";
+import SongsImageName from "../components/SongsImageName.vue";
+//import SongsList from "../components/SongsList.vue";
 
 export default {
   name: "Home",
 
   components: {
-    SongsList,
+    //SongsList,
+    SongsImageName,
   },
 };
 </script>
