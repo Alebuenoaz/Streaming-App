@@ -1,5 +1,5 @@
 <template>
-  <div class="search">
+  <v-container>
     <v-row>
       <v-col cols="12">
         <v-card dark flat tile>
@@ -15,7 +15,7 @@
       </v-col>
     </v-row>
     <SearchList />
-  </div>
+  </v-container>
 </template>
 
 <script>

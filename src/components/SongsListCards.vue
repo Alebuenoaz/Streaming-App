@@ -1,13 +1,11 @@
 <template>
-  <v-container fluid>
-    <v-flex>
-      <v-layout justify-center>
-        <h1>Hecho para Ti</h1>
-      </v-layout>
+  <v-flex>
+    <v-layout justify-center>
+      <h1>Hecho para Ti</h1>
+    </v-layout>
 
-      <song-card></song-card>
-    </v-flex>
-  </v-container>
+    <song-card></song-card>
+  </v-flex>
 </template>
 
 <script>

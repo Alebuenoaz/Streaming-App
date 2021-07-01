@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container>
     <v-row dense>
       <v-col
         v-for="(item, i) in visibleResults"
@@ -9,10 +9,10 @@
         ls="12"
         class="pa-3 d-flex flex-column"
       >
-        <v-card class="album-box mx-auto my-12" max-width="200">
+        <v-card class="album-box mx-auto my-4" max-width="180px">
           <v-avatar
             :tile="true"
-            size="176"
+            size="152"
             class="ma-3 center elevation-4 mt-3"
             round
           >
@@ -20,7 +20,7 @@
               :src="resizeImageUrl(item)"
               alt="Album Cover"
               class="album-cover"
-              height="176"
+              height="152"
             />
           </v-avatar>
 
@@ -55,8 +55,8 @@
 
 <script>
 import axios from "axios";
-import { API_HOST } from "../utils/constant";
-import { config } from "../utils/config";
+// import { API_HOST } from "../utils/constant";
+// import { config } from "../utils/config";
 export default {
   name: "SongCard",
   data: () => ({
@@ -78,10 +78,11 @@ export default {
       self.searching = true;
       axios
         .get(
-          API_HOST +
-            `term=${self.selectedSong}&entity=${self.entity}&limit=20
-            }`,
-          config
+          // API_HOST +
+          //   `term=${self.selectedSong}&entity=${self.entity}&limit=20
+          //   }`,
+          // config
+          `http://localhost:8080/search?term=${self.selectedSong}&entity=${self.entity}&limit=20`
         )
         .then((response) => {
           self.searching = false;

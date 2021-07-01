@@ -3,42 +3,45 @@
     <v-row>
       <v-col cols="12">
         <v-card color="primary" dark flat tile>
-          <v-card-actions>
-            <v-list-item>
-              <v-list-item-avatar tile size="232">
-                <v-avatar class="ma-3" tile size="232">
-                  <v-img
-                    src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_bo_large.jpg"
-                  ></v-img>
-                </v-avatar>
-              </v-list-item-avatar>
-              <v-list-item-content>
-                <v-list-item-title>Playlist</v-list-item-title>
-                <h1 style="font-size: 96px">Top 50: Bolivia</h1>
-                <v-list-item-title
-                  >Tu actualización diaria de las canciones más escuchadas ahora
-                  mismo en Bolivia.</v-list-item-title
-                >
-              </v-list-item-content>
-            </v-list-item>
-          </v-card-actions>
+          <v-container>
+            <v-card-actions>
+              <v-list-item>
+                <v-list-item-avatar tile size="232">
+                  <v-avatar class="ma-3" tile size="232">
+                    <v-img
+                      src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_bo_large.jpg"
+                    ></v-img>
+                  </v-avatar>
+                </v-list-item-avatar>
+                <v-list-item-content>
+                  <v-list-item-title>Playlist</v-list-item-title>
+                  <h1 style="font-size: 96px">Top 50: Bolivia</h1>
+                  <v-list-item-title
+                    >Tu actualización diaria de las canciones más escuchadas
+                    ahora mismo en Bolivia.</v-list-item-title
+                  >
+                </v-list-item-content>
+              </v-list-item>
+            </v-card-actions>
+          </v-container>
         </v-card>
       </v-col>
     </v-row>
-    <v-row class="mb-3">
-      <v-col cols="12">
-        <v-btn class="mt-5 ml-8" icon color="green">
-          <v-icon size="64px">{{ "mdi-play-circle" }}</v-icon>
-        </v-btn>
-        <v-btn class="mt-5 ml-7" icon color="green">
-          <v-icon size="32px">{{ "mdi-heart-outline" }}</v-icon>
-        </v-btn>
-        <v-btn class="mt-5 ml-7" icon color="green">
-          <v-icon size="32px">{{ "mdi-dots-horizontal" }}</v-icon>
-        </v-btn>
-      </v-col>
-    </v-row>
     <v-container>
+      <v-row class="mb-3">
+        <v-col cols="12">
+          <v-btn class="mt-5 ml-8" icon color="green">
+            <v-icon size="64px">{{ "mdi-play-circle" }}</v-icon>
+          </v-btn>
+          <v-btn class="mt-5 ml-7" icon color="green">
+            <v-icon size="32px">{{ "mdi-heart-outline" }}</v-icon>
+          </v-btn>
+          <v-btn class="mt-5 ml-7" icon color="green">
+            <v-icon size="32px">{{ "mdi-dots-horizontal" }}</v-icon>
+          </v-btn>
+        </v-col>
+      </v-row>
+
       <v-row>
         <h3 class="pl-15">#</h3>
         <h3 class="pl-6">TÍTULO</h3>

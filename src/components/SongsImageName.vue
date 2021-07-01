@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="py-6 px-4 ma-0">
+  <v-container>
     <v-row dense>
       <v-col v-for="(item, i) in visibleResults" :key="i" cols="4">
         <v-card class="primary" style="height: 104px; width: 344px mx-0">

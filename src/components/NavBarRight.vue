@@ -2,7 +2,7 @@
   <v-navigation-drawer left color="black" app>
     <template v-slot:prepend>
       <v-list-item two-line class="my-6 ml-8 pa-0 mr-2">
-        <v-list-item-avatar class="mr-1 my-0" height="64px" width="64px">
+        <v-list-item-avatar class="mr-1 my-0" height="40px" width="40px">
           <v-img
             :src="require('../assets/spotify.svg')"
             class="my-3"
@@ -12,7 +12,7 @@
         </v-list-item-avatar>
 
         <v-list-item-content class="pa-0 mt-1">
-          <v-list-item-title class="white--text text-h4 font-weight-bold ml-2"
+          <v-list-item-title class="white--text text-h5 font-weight-bold ml-2"
             >Spotify</v-list-item-title
           >
         </v-list-item-content>
