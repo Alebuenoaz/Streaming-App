@@ -1,11 +1,13 @@
 <template>
-  <div class="home">
+  <v-container>
+    <h1 class="white--text">Escuchados recientemente</h1>
+
     <SongsImageName />
-    <v-layout justify-center>
-      <h1 class="white--text">Hecho para Ti</h1>
-    </v-layout>
+
+    <h1 class="white--text">Hecho para Ti</h1>
+
     <SongsListCards />
-  </div>
+  </v-container>
 </template>
 
 <script>

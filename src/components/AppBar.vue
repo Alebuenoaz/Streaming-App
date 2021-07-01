@@ -26,11 +26,11 @@
                 v-on="on"
                 v-on:click="changeIcon"
               >
-                <v-icon left color="charcoal0" size="28px" class="ml-1"
+                <v-icon left color="white" size="28px" class="ml-1"
                   >mdi-account-circle</v-icon
                 >
-                <span class="ml-1">{{ user }}</span>
-                <v-icon right color="charcoal0">{{ arrowIcon }}</v-icon>
+                <h4 class="ml-1">{{ user }}</h4>
+                <v-icon right color="white">{{ arrowIcon }}</v-icon>
               </v-btn>
             </template>
             <v-list color="primary" dark>
