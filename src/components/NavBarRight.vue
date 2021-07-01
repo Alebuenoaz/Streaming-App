@@ -1,15 +1,18 @@
 <template>
-  <v-navigation-drawer left color="primary" app>
+  <v-navigation-drawer left color="black" app>
     <template v-slot:prepend>
-      <v-list-item two-line class="my-6 ml-3 pa-0 mr-2">
+      <v-list-item two-line class="my-6 ml-8 pa-0 mr-2">
         <v-list-item-avatar class="mr-1 my-0" height="64px" width="64px">
-          <img src="https://randomuser.me/api/portraits/women/81.jpg" />
+          <v-img
+            :src="require('../assets/spotify.svg')"
+            class="my-3"
+            contain
+            height="200"
+          />
         </v-list-item-avatar>
 
         <v-list-item-content class="pa-0 mt-1">
-          <v-list-item-title class="charcoal0--text"
-            >Jane Smith</v-list-item-title
-          >
+          <v-list-item-title class="white--text">Spotify</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </template>
@@ -18,7 +21,7 @@
       <v-list-item
         v-for="item in items"
         :key="item.title"
-        class="pa-0 ml-3 mr-2 mb-6"
+        class="pa-0 ml-8 mr-2 mb-6"
         :height="item.height"
         width="172px"
       >
@@ -26,11 +29,11 @@
           class="pa-0 mr-1 my-0"
           height="24px"
           width="24px"
-          color="black"
+          color="white"
           >{{ item.icon }}</v-icon
         >
         <v-list-item-title
-          class="pa-0 charcoal0--text"
+          class="pa-0 white--text"
           :height="item.height"
           width="144px"
           >{{ item.title }}</v-list-item-title
@@ -41,6 +44,8 @@
 </template>
 
 <script>
+// import { logo } from "../assets/spotify.svg";
+
 export default {
   name: "HelloWorld",
   data: () => ({

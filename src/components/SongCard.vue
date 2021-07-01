@@ -1,18 +1,18 @@
 <template>
-  <v-container>
+  <v-container fluid>
     <v-row dense>
       <v-col
         v-for="(item, i) in visibleResults"
         :key="i"
         cols="12"
-        sm="3"
+        sm="2"
         ls="12"
         class="pa-3 d-flex flex-column"
       >
-        <v-card class="album-box mx-auto my-12" max-width="374">
+        <v-card class="album-box mx-auto my-12" max-width="200">
           <v-avatar
             :tile="true"
-            size="250"
+            size="176"
             class="ma-3 center elevation-4 mt-3"
             round
           >
@@ -20,7 +20,7 @@
               :src="resizeImageUrl(item)"
               alt="Album Cover"
               class="album-cover"
-              height="250"
+              height="176"
             />
           </v-avatar>
 
@@ -115,7 +115,7 @@ export default {
   display: inline-block;
 }
 .card-control {
-  width: 256px;
+  width: 180px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

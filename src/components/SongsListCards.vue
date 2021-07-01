@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container fluid>
     <v-flex>
       <v-layout justify-center>
         <h3 id="textfield1" class="title is-4 has-text-centered">
@@ -22,5 +22,4 @@ export default {
   },
 };
 </script>
-<style scoped>
-</style>
+<style scoped></style>

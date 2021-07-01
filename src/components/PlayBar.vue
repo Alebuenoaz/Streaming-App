@@ -1,7 +1,6 @@
-/* eslint-disable */
 <template>
   <v-card height="12vh">
-    <v-footer color="#181818" app>
+    <v-footer color="charcoal0" app>
       <v-row no-gutters>
         <v-col cols="3">
           <v-card color="charcoal0" dark flat>
@@ -41,7 +40,7 @@
             tile
             width="100%"
             class="text-center d-flex"
-            color="#181818"
+            color="charcoal0"
           >
             <v-card-text>
               <v-btn
@@ -69,7 +68,7 @@
             <v-divider></v-divider>
           </v-card>
           <v-row align="center" justify="center">
-            <v-card flat tile color="#181818" dark width="100%" class="pb-5">
+            <v-card flat tile color="charcoal0" dark width="100%" class="pb-5">
               <v-card-text>
                 <v-progress-linear
                   color="white"
@@ -92,7 +91,7 @@
             >
               <v-icon size="24px">{{ icon }}</v-icon>
             </v-btn>
-            <v-card flat color="#181818" dark width="20%" class="d-flex">
+            <v-card flat color="charcoal0" dark width="20%" class="d-flex">
               <v-card-text>
                 <v-progress-linear
                   color="white"

@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="app">
     <AppBar />
     <NavBarRight fixed />
 
@@ -29,3 +29,8 @@ export default {
   },
 };
 </script>
+<style>
+#app {
+  background: #121212;
+}
+</style>
