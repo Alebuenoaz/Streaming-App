@@ -10,7 +10,7 @@
             <div class="pl-9">
               <v-card-title
                 class="text-Lato white--text"
-                style="font-size: 32px"
+                style="font-size: 20px"
                 v-text="item.collectionName"
               ></v-card-title>
             </div>
