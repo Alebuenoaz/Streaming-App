@@ -2,9 +2,7 @@
   <v-container fluid>
     <v-flex>
       <v-layout justify-center>
-        <h3 id="textfield1" class="title is-4 has-text-centered">
-          Hecho para Ti
-        </h3>
+        <h1>Hecho para Ti</h1>
       </v-layout>
 
       <song-card></song-card>

@@ -32,7 +32,10 @@
                 class="textadapt font-weight-light card-control"
               ></v-card-title>
 
-              <v-card-subtitle v-text="item.artistName"></v-card-subtitle>
+              <v-card-subtitle
+                v-text="item.artistName"
+                class="card-control"
+              ></v-card-subtitle>
             </div>
           </div>
           <v-card-actions>

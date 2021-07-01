@@ -20,7 +20,7 @@
     </template>
 
     <v-list dense class="pa-0">
-      <v-list-item
+      <!--v-list-item
         v-for="item in items"
         :key="item.title"
         class="pa-0 ml-8 mr-2 mb-6"
@@ -40,6 +40,58 @@
           width="144px"
           >{{ item.title }}</v-list-item-title
         >
+      </!--v-list-item-->
+      <v-list-item :to="{ name: 'Home' }">
+        <v-list-item-action>
+          <v-icon
+            class="pa-0 mr-1 my-0"
+            height="24px"
+            width="24px"
+            color="white"
+            >mdi-home</v-icon
+          >
+        </v-list-item-action>
+        <v-list-item-title class="pa-0 white--text">Home </v-list-item-title>
+      </v-list-item>
+      <v-list-item :to="{ name: 'Explore' }">
+        <v-list-item-action>
+          <v-icon
+            class="pa-0 mr-1 my-0"
+            height="24px"
+            width="24px"
+            color="white"
+            >mdi-music-box-multiple</v-icon
+          >
+        </v-list-item-action>
+        <v-list-item-title class="pa-0 white--text"
+          >Libreria
+        </v-list-item-title>
+      </v-list-item>
+      <v-list-item :to="{ name: 'Search' }">
+        <v-list-item-action>
+          <v-icon
+            class="pa-0 mr-1 my-0"
+            height="24px"
+            width="24px"
+            color="white"
+            >mdi-magnify</v-icon
+          >
+        </v-list-item-action>
+        <v-list-item-title class="pa-0 white--text">Buscar </v-list-item-title>
+      </v-list-item>
+      <v-list-item :to="{ name: 'Listen' }">
+        <v-list-item-action>
+          <v-icon
+            class="pa-0 mr-1 my-0"
+            height="24px"
+            width="24px"
+            color="white"
+            >mdi-account-group</v-icon
+          >
+        </v-list-item-action>
+        <v-list-item-title class="pa-0 white--text"
+          >Listen Together
+        </v-list-item-title>
       </v-list-item>
     </v-list>
   </v-navigation-drawer>
