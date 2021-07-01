@@ -9,7 +9,7 @@
             </v-avatar>
             <div class="pl-9">
               <v-card-title
-                class="text-Lato charcoal0--text"
+                class="text-Lato white--text"
                 style="font-size: 32px"
                 v-text="item.collectionName"
               ></v-card-title>
