@@ -2,7 +2,7 @@
   <div>
     <v-row>
       <v-col cols="12">
-        <v-card color="primary" dark flat tile>
+        <v-card color="secondary" dark flat tile>
           <v-container>
             <v-card-actions>
               <v-list-item>
@@ -30,13 +30,13 @@
     <v-container>
       <v-row class="mb-3">
         <v-col cols="12">
-          <v-btn class="mt-5 ml-8" icon color="green">
+          <v-btn class="mt-5 ml-8" icon color="primary">
             <v-icon size="64px">{{ "mdi-play-circle" }}</v-icon>
           </v-btn>
-          <v-btn class="mt-5 ml-7" icon color="green">
+          <v-btn class="mt-5 ml-7" icon color="charcoa40">
             <v-icon size="32px">{{ "mdi-heart-outline" }}</v-icon>
           </v-btn>
-          <v-btn class="mt-5 ml-7" icon color="green">
+          <v-btn class="mt-5 ml-7" icon color="charcoa40">
             <v-icon size="32px">{{ "mdi-dots-horizontal" }}</v-icon>
           </v-btn>
         </v-col>
@@ -46,8 +46,8 @@
         <h3 class="pl-15">#</h3>
         <h3 class="pl-6">TÍTULO</h3>
         <h3 style="padding-left: 250px">REPRODUCCIONES</h3>
-        <h3 style="padding-left: 220px">ÁLBUM</h3>
-        <v-btn style="margin-left: 165px" class="m-0" icon color="white">
+        <h3 style="padding-left: 256px">ÁLBUM</h3>
+        <v-btn style="margin-left: 144px" class="m-0" icon color="white">
           <v-icon size="24px">{{ "mdi-clock-time-three-outline" }}</v-icon>
         </v-btn>
       </v-row>

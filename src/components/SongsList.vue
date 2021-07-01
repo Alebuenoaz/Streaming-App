@@ -1,10 +1,10 @@
 <template>
-  <v-list flat class="px-6 song-list">
+  <v-list flat class="px-6" color="secondary">
     <v-list-item-group v-model="selectedItem" class="pa-0">
       <v-list-item
         v-for="(item, i) in visibleResults"
         :key="i"
-        class="mb-1 pa-0 primary"
+        class="mb-1 pa-0 secondary"
         style="height: 40px"
       >
         <p
@@ -41,6 +41,7 @@
             <v-list-item-subtitle
               style="font-size: 12px"
               v-text="item.collectionType"
+              class="white--text"
             >
             </v-list-item-subtitle>
           </v-list-item-content>
@@ -53,6 +54,7 @@
             <v-list-item-subtitle
               style="font-size: 12px"
               v-text="localDateFormat(item.releaseDate)"
+              class="white--text"
             ></v-list-item-subtitle>
           </v-list-item-content>
         </div>
@@ -64,6 +66,7 @@
             <v-list-item-subtitle
               style="font-size: 12px; text-align: center"
               v-text="item.collectionPrice"
+              class="white--text"
             ></v-list-item-subtitle>
           </v-list-item-content>
         </div>
@@ -106,9 +109,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.song-list {
-  background: #121212 !important;
-}
-</style>

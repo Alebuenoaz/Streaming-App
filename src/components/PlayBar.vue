@@ -22,10 +22,10 @@
               </v-list-item-content>
               <v-list-item-content>
                 <v-row>
-                  <v-btn class="ml-2" icon color="#b3b3b3">
+                  <v-btn class="ml-2" icon color="charcoa40">
                     <v-icon size="16px">{{ "mdi-heart-outline" }}</v-icon>
                   </v-btn>
-                  <v-btn icon color="#b3b3b3">
+                  <v-btn icon color="charcoa40">
                     <v-icon size="16px">{{ "mdi-overscan" }}</v-icon>
                   </v-btn>
                 </v-row>
@@ -47,7 +47,7 @@
               v-for="icon in icons1"
               :key="icon"
               class="mx-1"
-              color="#b3b3b3"
+              color="charcoa40"
               icon
             >
               <v-icon size="20px">{{ icon }}</v-icon>
@@ -60,7 +60,7 @@
               :key="icon"
               class="mx-1"
               icon
-              color="#b3b3b3"
+              color="charcoa40"
             >
               <v-icon size="20px">{{ icon }}</v-icon>
             </v-btn>
@@ -94,7 +94,7 @@
             :key="icon"
             class="mx-1"
             icon
-            color="#b3b3b3"
+            color="charcoa40"
           >
             <v-icon size="20px">{{ icon }}</v-icon>
           </v-btn>

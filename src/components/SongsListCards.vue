@@ -1,9 +1,5 @@
 <template>
   <v-flex>
-    <v-layout justify-center>
-      <h1>Hecho para Ti</h1>
-    </v-layout>
-
     <song-card></song-card>
   </v-flex>
 </template>

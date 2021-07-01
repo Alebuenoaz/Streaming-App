@@ -16,6 +16,7 @@ const vuetify = new Vuetify({
         success: "#05B804",
         warning: "#FFC802",
         charcoal0: "#181818",
+        charcoa40: "#b3b3b3"
       },
     },
   },

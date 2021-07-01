@@ -9,7 +9,7 @@
         ls="12"
         class="pa-3 d-flex flex-column"
       >
-        <v-card class="album-box mx-auto my-4" max-width="180px">
+        <v-card class="album-box mx-auto my-4" color="charcoal0" max-width="180px">
           <v-avatar
             :tile="true"
             size="152"
@@ -29,19 +29,19 @@
               <v-card-title
                 id="contenido"
                 v-text="item.collectionName"
-                class="textadapt font-weight-light card-control"
+                class="textadapt font-weight-light card-control white--text"
               ></v-card-title>
 
               <v-card-subtitle
                 v-text="item.artistName"
-                class="card-control"
+                class="card-control white--text"
               ></v-card-subtitle>
             </div>
           </div>
           <v-card-actions>
             <v-list-item class="grow">
               <v-row align="center" justify="end">
-                <v-btn class="mx-2" fab dark color="cyan">
+                <v-btn class="mx-2" fab dark color="primary">
                   <v-icon dark> mdi-play </v-icon>
                 </v-btn>
               </v-row>
