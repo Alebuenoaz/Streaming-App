@@ -1,5 +1,5 @@
 <template>
-  <v-card height="12vh">
+  <v-card height="12vh" color="#121212">
     <v-footer color="charcoal0" app>
       <v-row no-gutters>
         <v-col cols="3">

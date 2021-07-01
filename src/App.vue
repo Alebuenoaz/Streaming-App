@@ -32,5 +32,10 @@ export default {
 <style>
 #app {
   background: #121212;
+  /* width: 1920px;
+  margin-left: calc((100%-1920px) / 2); */
+}
+body {
+  background-color: #121212;
 }
 </style>
