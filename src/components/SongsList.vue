@@ -8,7 +8,7 @@
         style="height: 40px"
       >
         <p
-          class="my-3 mx-6 text-Lato charcoal0--text"
+          class="my-3 mx-6 text-Lato white--text"
           style="height: 16px; width: 16px; font-size: 12px; text-align: center"
         >
           {{ i + 1 }}
@@ -17,7 +17,7 @@
           <v-img :src="item.artworkUrl100"></v-img>
         </v-list-item-avatar>
         <div
-          class="myDiv pb-1 text-Lato charcoal0--text"
+          class="myDiv pb-1 text-Lato white--text"
           style="height: 40px; width: 332px"
         >
           <v-list-item-content class="pl-1 pt-0">
@@ -34,7 +34,7 @@
           </v-list-item-content>
         </div>
         <div
-          class="myDiv py-3 text-Lato charcoal0--text"
+          class="myDiv py-3 text-Lato white--text"
           style="height: 40px; width: 36px"
         >
           <v-list-item-content class="py-0">
@@ -46,7 +46,7 @@
           </v-list-item-content>
         </div>
         <div
-          class="myDiv py-3 text-Lato charcoal0--text"
+          class="myDiv py-3 text-Lato white--text"
           style="height: 40px; width: 112px; margin-left: 324px"
         >
           <v-list-item-content class="py-0 pr-13">
@@ -57,7 +57,7 @@
           </v-list-item-content>
         </div>
         <div
-          class="myDiv py-3 text-Lato charcoal0--text"
+          class="myDiv py-3 text-Lato white--text"
           style="height: 40px; width: 32px; margin-left: 88px"
         >
           <v-list-item-content class="py-0">

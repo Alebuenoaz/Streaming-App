@@ -1,6 +1,6 @@
 /* eslint-disable */
 <template>
-  <v-card height="12vh">
+  <v-card height="12vh" tile>
     <v-footer color="#181818" app>
       <v-row no-gutters>
         <v-col cols="3">

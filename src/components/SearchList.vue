@@ -1,32 +1,32 @@
 <template>
   <v-container class="py-6 px-4 ma-0">
     <v-row>
-      <v-col v-for="(item, i) in visibleResults" :key="i" cols="2" class="px-6" >
-        <v-card class="primary pa-0" style="height: 350px; width: 300px" >
-          <v-img
-            class="white--text align-end "
-            :src="item.artworkUrl100"
-          >
-            <v-btn rounded class="px-0">
-              <v-icon class="pa-0 ma-0" color="black"
-                >mdi-message-text
-              </v-icon>
-            </v-btn>
-          </v-img>
-          <v-card-text primary>
-            <div
-              class="text-Lato charcoal0--text"
+      <v-col v-for="(item, i) in visibleResults" :key="i" cols="2" class="px-6">
+        <template>
+          <v-card class="card-explore" color="primary" height="350" width="196">
+            <v-row>
+              <v-img height="150" class="mx-6 my-6" :src="item.artworkUrl100">
+                <v-icon
+                  class="float-right elevation-10"
+                  style="margin-top: 100px"
+                  large 
+                  lightcolor="white"
+                  >mdi-play</v-icon
+                >
+              </v-img>
+            </v-row>
+            <v-card-title
+              class="card-title py-6 white--text"
+              style="font-size: 16px"
+              v-text="item.collectionName"
+            ></v-card-title>
+            <v-card-subtitle
+              class="card-title py-6 white--text"
               style="font-size: 12px"
               v-text="item.collectionName"
-            ></div>
-
-            <div
-              class="text-Lato charcoal0--text"
-              style="font-size: 12px"
-              v-text="item.collectionName"
-            ></div>
-          </v-card-text>
-        </v-card>
+            ></v-card-subtitle>
+          </v-card>
+        </template>
       </v-col>
     </v-row>
   </v-container>

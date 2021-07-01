@@ -7,7 +7,7 @@
         </v-list-item-avatar>
 
         <v-list-item-content class="pa-0 mt-1">
-          <v-list-item-title class="charcoal0--text"
+          <v-list-item-title class="white--text"
             >Jane Smith</v-list-item-title
           >
         </v-list-item-content>
@@ -30,7 +30,7 @@
           >{{ item.icon }}</v-icon
         >
         <v-list-item-title
-          class="pa-0 charcoal0--text"
+          class="pa-0 white--text"
           :height="item.height"
           width="144px"
           >{{ item.title }}</v-list-item-title
