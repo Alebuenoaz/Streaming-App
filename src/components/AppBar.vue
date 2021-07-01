@@ -9,9 +9,8 @@
             prepend-inner-icon="mdi-magnify"
             rounded
             single-line
-            background-color="primary"
+            background-color="white"
             clearable
-            dark
             height="40"
           ></v-text-field>
         </v-col>
@@ -56,7 +55,7 @@ export default {
       { title: "Sube a premiun" },
       { title: "Cerrar sesión" },
     ],
-    user: "Juan Perez",
+    user: "Alebuenoaz",
     arrowIcon: "mdi-arrow-down-drop-circle-outline",
   }),
   methods: {

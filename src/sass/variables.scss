@@ -3,3 +3,15 @@ $font-size-root: 16px;
 $btn-border-radius: 8px;
 $base-font-size: 18px;
 $spacing-base: 28px;
+
+$btn-letter-spacing: 0;
+$btn-font-weight: 18;
+$btn-border-radius: 12px;
+$btn-sizes:(
+    'default':32,
+    'large': 56,
+    'small':32
+);
+
+$input-font-size: 16px;
+$input-letter-spacing:0;

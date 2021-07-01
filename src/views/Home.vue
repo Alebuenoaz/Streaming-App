@@ -2,7 +2,7 @@
   <div class="home">
     <SongsImageName />
     <v-layout justify-center>
-      <h1>Hecho para Ti</h1>
+      <h1 class="white--text">Hecho para Ti</h1>
     </v-layout>
     <SongsListCards />
   </div>

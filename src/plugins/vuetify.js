@@ -8,7 +8,7 @@ const vuetify = new Vuetify({
   theme: {
     themes: {
       light: {
-        primary: "#1db954",
+        primary: "#03A9F4",
         secondary: "#121212",
         accent: "#82B1FF",
         error: "#A00404",
@@ -16,7 +16,7 @@ const vuetify = new Vuetify({
         success: "#05B804",
         warning: "#FFC802",
         charcoal0: "#181818",
-        charcoa40: "#b3b3b3"
+        charcoa40: "#b3b3b3",
       },
     },
   },

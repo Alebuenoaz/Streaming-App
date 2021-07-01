@@ -1,46 +1,26 @@
 <template>
   <v-navigation-drawer left color="black" app>
     <template v-slot:prepend>
-      <v-list-item two-line class="my-6 ml-8 pa-0 mr-2">
+      <v-list-item two-line class="my-6 ml-6 pa-0 mr-2">
         <v-list-item-avatar class="mr-1 my-0" height="40px" width="40px">
-          <v-img
-            :src="require('../assets/spotify.svg')"
+          <!-- <v-img
+            :src="require('../assets/logo.svg')"
             class="my-3"
             contain
             height="200"
-          />
+          /> -->
+          <v-icon size="56px" color="primary">mdi-music-circle-outline</v-icon>
         </v-list-item-avatar>
 
         <v-list-item-content class="pa-0 mt-1">
           <v-list-item-title class="white--text text-h5 font-weight-bold ml-2"
-            >Spotify</v-list-item-title
+            >MusicApp</v-list-item-title
           >
         </v-list-item-content>
       </v-list-item>
     </template>
 
-    <v-list dense class="pa-0">
-      <!--v-list-item
-        v-for="item in items"
-        :key="item.title"
-        class="pa-0 ml-8 mr-2 mb-6"
-        :height="item.height"
-        width="172px"
-      >
-        <v-icon
-          class="pa-0 mr-1 my-0"
-          height="24px"
-          width="24px"
-          color="white"
-          >{{ item.icon }}</v-icon
-        >
-        <v-list-item-title
-          class="pa-0 white--text"
-          :height="item.height"
-          width="144px"
-          >{{ item.title }}</v-list-item-title
-        >
-      </!--v-list-item-->
+    <v-list dense class="pa-0 ml-2">
       <v-list-item :to="{ name: 'Home' }">
         <v-list-item-action>
           <v-icon
@@ -67,7 +47,7 @@
           >Libreria
         </v-list-item-title>
       </v-list-item>
-      <v-list-item :to="{ name: 'Explore' }">
+      <v-list-item :to="{ name: 'Search' }">
         <v-list-item-action>
           <v-icon
             class="pa-0 mr-1 my-0"
@@ -79,7 +59,7 @@
         </v-list-item-action>
         <v-list-item-title class="pa-0 white--text">Buscar </v-list-item-title>
       </v-list-item>
-      <v-list-item :to="{ name: 'Search' }">
+      <v-list-item :to="{ name: 'Explore' }">
         <v-list-item-action>
           <v-icon
             class="pa-0 mr-1 my-0"

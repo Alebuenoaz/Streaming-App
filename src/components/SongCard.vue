@@ -9,7 +9,11 @@
         ls="12"
         class="pa-3 d-flex flex-column"
       >
-        <v-card class="album-box mx-auto my-4" color="charcoal0" max-width="180px">
+        <v-card
+          class="album-box mx-auto my-4"
+          color="charcoal0"
+          max-width="180px"
+        >
           <v-avatar
             :tile="true"
             size="152"

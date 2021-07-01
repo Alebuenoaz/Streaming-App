@@ -9,7 +9,7 @@
                 <v-list-item-avatar tile size="232">
                   <v-avatar class="ma-3" tile size="232">
                     <v-img
-                      src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_bo_large.jpg"
+                      src="https://i.scdn.co/image/ab67706c0000bebbfd9e4220b77244ccea6eadd3"
                     ></v-img>
                   </v-avatar>
                 </v-list-item-avatar>

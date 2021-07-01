@@ -1,8 +1,8 @@
 <template>
   <v-container>
-    <v-row dense>
+    <v-row>
       <v-col v-for="(item, i) in visibleResults" :key="i" cols="4">
-        <v-card class="primary" style="height: 104px; width: 344px mx-0">
+        <v-card class="charcoal0" style="height: 104px; width: 344px mx-0">
           <div class="d-flex flex-no-wrap py-0">
             <v-avatar class="py-0" size="104" tile>
               <v-img :src="item.artworkUrl100"></v-img>
