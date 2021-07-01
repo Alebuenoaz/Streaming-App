@@ -12,7 +12,9 @@
         </v-list-item-avatar>
 
         <v-list-item-content class="pa-0 mt-1">
-          <v-list-item-title class="white--text">Spotify</v-list-item-title>
+          <v-list-item-title class="white--text text-h4 font-weight-bold ml-2"
+            >Spotify</v-list-item-title
+          >
         </v-list-item-content>
       </v-list-item>
     </template>
