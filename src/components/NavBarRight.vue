@@ -53,7 +53,7 @@
         </v-list-item-action>
         <v-list-item-title class="pa-0 white--text">Home </v-list-item-title>
       </v-list-item>
-      <v-list-item :to="{ name: 'Explore' }">
+      <v-list-item :to="{ name: 'Playlist' }">
         <v-list-item-action>
           <v-icon
             class="pa-0 mr-1 my-0"
@@ -67,7 +67,7 @@
           >Libreria
         </v-list-item-title>
       </v-list-item>
-      <v-list-item :to="{ name: 'Search' }">
+      <v-list-item :to="{ name: 'Explore' }">
         <v-list-item-action>
           <v-icon
             class="pa-0 mr-1 my-0"
@@ -79,7 +79,7 @@
         </v-list-item-action>
         <v-list-item-title class="pa-0 white--text">Buscar </v-list-item-title>
       </v-list-item>
-      <v-list-item :to="{ name: 'Listen' }">
+      <v-list-item :to="{ name: 'Search' }">
         <v-list-item-action>
           <v-icon
             class="pa-0 mr-1 my-0"

@@ -9,7 +9,7 @@
                 <v-icon
                   class="float-right elevation-10"
                   style="margin-top: 100px"
-                  large 
+                  large
                   lightcolor="white"
                   >mdi-play</v-icon
                 >

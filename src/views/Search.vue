@@ -14,12 +14,12 @@
         </v-card>
       </v-col>
     </v-row>
-    <SearchList/>
+    <SearchList />
   </div>
 </template>
 
 <script>
-import SearchList from '../components/SearchList.vue';
+import SearchList from "../components/SearchList.vue";
 
 export default {
   name: "Search",

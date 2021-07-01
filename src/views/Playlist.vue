@@ -42,9 +42,9 @@
       <v-row>
         <h3 class="pl-15">#</h3>
         <h3 class="pl-6">TÍTULO</h3>
-        <h3 style="padding-left:250px">REPRODUCCIONES</h3>
-        <h3 style="padding-left:220px">ÁLBUM</h3>
-        <v-btn style="padding-left:165px" class="m-0" icon color="green">
+        <h3 style="padding-left: 250px">REPRODUCCIONES</h3>
+        <h3 style="padding-left: 220px">ÁLBUM</h3>
+        <v-btn style="margin-left: 165px" class="m-0" icon color="white">
           <v-icon size="24px">{{ "mdi-clock-time-three-outline" }}</v-icon>
         </v-btn>
       </v-row>
@@ -100,3 +100,9 @@ export default {
   },
 };
 </script>
+
+<style>
+h3 {
+  color: white;
+}
+</style>

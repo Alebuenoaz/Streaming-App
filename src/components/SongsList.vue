@@ -1,5 +1,5 @@
 <template>
-  <v-list flat class="px-6">
+  <v-list flat class="px-6 song-list">
     <v-list-item-group v-model="selectedItem" class="pa-0">
       <v-list-item
         v-for="(item, i) in visibleResults"
@@ -106,3 +106,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.song-list {
+  background: #121212 !important;
+}
+</style>
