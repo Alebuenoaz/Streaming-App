@@ -2,7 +2,11 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Explore from "../views/Explore";
+<<<<<<< HEAD
 import Search from "../views/Search.vue"
+=======
+import Playlist from '../views/Playlist'
+>>>>>>> 15e6668e37239a35cfae2073829ea281b91682d9
 
 Vue.use(VueRouter);
 
@@ -27,9 +31,15 @@ const routes = [
     component: Explore,
   },
   {
+<<<<<<< HEAD
     path: "/seacrh",
     name: "Search",
     component: Search,
+=======
+    path: "/playlist",
+    name: "Playlist",
+    component: Playlist,
+>>>>>>> 15e6668e37239a35cfae2073829ea281b91682d9
   },
 ];
 

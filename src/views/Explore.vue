@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container fluid>
     <h1>Tus géneros más escuchados</h1>
     <v-row>
       <v-col

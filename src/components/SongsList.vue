@@ -11,7 +11,7 @@
           class="my-3 mx-6 text-Lato charcoal0--text"
           style="height: 16px; width: 16px; font-size: 12px; text-align: center"
         >
-          {{ i }}
+          {{ i + 1 }}
         </p>
         <v-list-item-avatar tile height="40px" width="40px" class="ma-0">
           <v-img :src="item.artworkUrl100"></v-img>
