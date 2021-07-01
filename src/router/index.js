@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Explore from "../views/Explore";
+import Search from "../views/Search.vue"
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,11 @@ const routes = [
     path: "/explore",
     name: "Explore",
     component: Explore,
+  },
+  {
+    path: "/seacrh",
+    name: "Search",
+    component: Search,
   },
 ];
 

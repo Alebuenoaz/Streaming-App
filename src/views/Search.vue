@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <SearchList/>
+  <div class="search">
+    <search-list/>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import SearchList from '../components/SearchList.vue';
 
 export default {
-  name: "Home",
+  name: "Search",
 
   components: {
     SearchList,
