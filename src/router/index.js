@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Explore from "../views/Explore";
+import Playlist from '../views/Playlist'
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,11 @@ const routes = [
     path: "/explore",
     name: "Explore",
     component: Explore,
+  },
+  {
+    path: "/playlist",
+    name: "Playlist",
+    component: Playlist,
   },
 ];
 
