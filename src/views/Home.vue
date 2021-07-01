@@ -1,13 +1,13 @@
 <template>
   <div class="home">
-    <SongsImageName/>
+    <SongsImageName />
     <SongsListCards />
   </div>
 </template>
 
 <script>
 import SongsListCards from "@/components/SongsListCards.vue";
-import SongsImageName from '../components/SongsImageName.vue';
+import SongsImageName from "../components/SongsImageName.vue";
 
 export default {
   name: "Home",

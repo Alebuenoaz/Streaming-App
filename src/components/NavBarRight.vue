@@ -7,7 +7,9 @@
         </v-list-item-avatar>
 
         <v-list-item-content class="pa-0 mt-1">
-          <v-list-item-title class=" charcoal0--text">Jane Smith</v-list-item-title>
+          <v-list-item-title class="charcoal0--text"
+            >Jane Smith</v-list-item-title
+          >
         </v-list-item-content>
       </v-list-item>
     </template>
